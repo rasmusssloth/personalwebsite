@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* optional: stops horizontal scroll */
+}
+.header{
+text-align: center;
+font-family: inter;
+font-size: 10px;
+padding-top: 10px;
+text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.157);
+color: white;
+}
+.cvr{
+   position: fixed;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.157);
+  color: white;
+  font-family: inter;
+}
+.email{
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.157);
+  color: white;
+  font-weight: 450;
+  font-family: inter;
+}
+.phone{
+  position: fixed;
+  bottom: 80px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.157);
+  color: white;
+  font-family: inter;
+}
+.video{
+  position: fixed;
+  width: 101%;
+  height: 101%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+.email a,
+.phone a {
+  color: white;
+  text-decoration: none;
+  font-family: inter;
+  font-size: 15px;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.157);
+}
+.email a:hover,
+.phone a:hover {
+  text-decoration: underline; /* add hover effect */
+}
